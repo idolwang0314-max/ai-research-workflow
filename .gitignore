@@ -1,0 +1,20 @@
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (for example scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local / private agent state — never commit live team work
+.plans-private/
+**/findings.local.md
+**/progress.local.md
